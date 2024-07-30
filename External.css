@@ -1,0 +1,78 @@
+                                                 /*ex1
+
+/* P{
+    color: red;
+    font-size: 50px;
+    transition: all 5s;
+}
+.paragraph{
+    color: blue;
+    font-size: 30px;
+    font-family: sans-serif;
+}
+#heading1{
+    color: blueviolet;
+    font-size: 40px;
+    font-family: sans-serif;
+} */
+
+                                                          /* ex2 */
+
+/* 001 */
+/*h5{
+    text-align: center;
+    font-size: 70px;
+    color: blue;
+}
+/* 010 */
+/* .Text{
+    font-size: 70px;
+    color: brown;
+} */
+/* 100 */
+/* #heading{
+    font-size: 70px;
+    color: blueviolet;
+} */
+/* h5#heading{
+    color: cadetblue;
+}
+h5.Text{
+    color: chartreuse;
+    
+}
+h5.Text#heading{
+    color: chocolate;
+} */
+
+                                                             /* ex3 */
+
+/* .container > div h2{
+    color: brown;
+    font-size:70px;
+    text-align: center;
+} */
+                                                            /* ex4 */
+body{
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    height: 100vh;
+}
+div{
+    transition: all 2s;
+    height: 600px;
+    width: 600px;
+    border-radius: 50%;
+    overflow: hidden;
+    background-image: url(https://i.pinimg.com/236x/3e/28/51/3e2851441a48fda3c206295454615888.jpg);
+    background-size: cover;
+}
+ div:hover{
+    transition: all 2s;
+    background-image: url(https://i.pinimg.com/236x/98/ac/11/98ac1181715e2ee027e5aeb731a6fabf.jpg);
+ }
+ img{
+    height: 600px;
+ }
